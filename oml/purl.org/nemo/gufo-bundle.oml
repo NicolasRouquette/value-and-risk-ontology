@@ -1,0 +1,4 @@
+vocabulary bundle <http://purl.org/nemo/gufo-bundle#> as gufo-bundle {
+	
+	includes <http://purl.org/nemo/gufo#>
+}

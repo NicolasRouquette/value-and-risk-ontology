@@ -1,0 +1,8 @@
+vocabulary <http://www.w3.org/2006/time#> as time {
+
+	extends <http://www.w3.org/2000/01/rdf-schema#> as rdfs
+
+	@rdfs:comment "A temporal entity with zero extent or duration"$en
+	@rdfs:label "Time instant"$en
+	aspect Instant
+}

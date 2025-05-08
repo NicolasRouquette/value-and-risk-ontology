@@ -6,7 +6,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<thttps://purl.org/krdb-core/cover> rdf:type owl:Ontology;
+<https://purl.org/krdb-core/cover> rdf:type owl:Ontology;
     owl:imports gufo:.
 cover:Endurant rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
     rdfs:subClassOf gufo:Endurant;

@@ -1,6 +1,5 @@
 <?xml version='1.0'?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
-	<rewriteURI uriStartString="http://purl.org/dc/elements" rewritePrefix="../../gufo/owl/purl.org/dc/elements" />
-	<rewriteURI uriStartString="http://purl.org/nemo" rewritePrefix="../../gufo/owl/purl.org/nemo" />
 	<rewriteURI uriStartString="http://" rewritePrefix="./" />
+	<rewriteURI uriStartString="https://" rewritePrefix="./" />
 </catalog>

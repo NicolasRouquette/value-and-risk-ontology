@@ -30,3 +30,15 @@ COVER is a well-founded ontology that makes the deep connections between the con
 ## References
 
 - Sales T.P., Baião F., Guizzardi G., Almeida J.P.A., Guarino N., Mylopoulos J. (2018) **The Common Ontology of Value and Risk**. In: Trujillo J. et al. (eds) Conceptual Modeling. ER 2018. Lecture Notes in Computer Science, vol 11157. Springer, Cham. [https://doi.org/10.1007/978-3-030-00847-5_11](https://doi.org/10.1007/978-3-030-00847-5_11)
+
+## Conversion from OWL to OML of the COVER ontology
+
+Given:
+
+- `$S` the path to the clone of this sandbox project
+- `$A` the path to the clone of the [owl-adapter](https://github.com/opencaesar/owl-adapter/tree/master)
+
+```shell
+cd $A
+./gradlew owl2oml:run --args="-i $S/value-and-risk-ontology/owl/catalog.xml -o $S/value-and-risk-ontology/oml/catalog.xml -s $S/value-and-risk-ontology/oml -if ttl"
+```
